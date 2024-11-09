@@ -16,5 +16,5 @@ jobs:
                     script: |
                         cd /root/Ghabaty-Wildfire-Alert-App
                         git pull
-                        docker-compose up -d --build
+                        docker compose up -d --build
                         
